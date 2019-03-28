@@ -12,13 +12,13 @@ Automatically delete the old SSL certificate on Tencent Cloud and upload a new S
 
 ### 2. 根据需求配置文件
 主要修改的地方有：
-DOMAIN = "域名"
+```DOMAIN = "域名"
 CERTPATH = "证书路径"
 KEYPATH = "私钥路径"
 config = {
     'secretId': '腾讯云API的ID',
     'secretKey': '腾讯云API的key',
-}
+}```
 
 API的key[点击这里获取](https://console.qcloud.com/capi)
 
