@@ -18,8 +18,8 @@ KEYPATH = "私钥路径"
 config = {
     'secretId': '腾讯云API的ID',
     'secretKey': '腾讯云API的key',
-}```
-
+}
+```
 API的key[点击这里获取](https://console.qcloud.com/capi)
 
 ### 3. 结合certbot加入到定时任务crontab里面
