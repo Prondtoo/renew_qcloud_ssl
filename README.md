@@ -26,4 +26,5 @@ API的key[点击这里获取](https://console.qcloud.com/capi)
 例如，每个月的第28天运行此脚本
 ```crontab -e
 10 13 28 * * certbot renew
-10 14 28 * * python3.6 /root/auto_renew_qcloudssl.py```
+10 14 28 * * python3.6 /root/auto_renew_qcloudssl.py
+```
